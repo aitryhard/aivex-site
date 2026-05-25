@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIVEX — AI Desktop Assistant</title>
+    <meta name="description" content="AIVEX — десктопный AI-ассистент с ScreenPeek, записью аудио и гибкими профилями.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <span class="logo">Aivex</span>
+        <div class="nav-links">
+            <a href="#features">Возможности</a>
+            <a href="#download">Скачать</a>
+            <a href="https://github.com/aitryhard/AIVEX" target="_blank" rel="noopener">GitHub</a>
+            <a href="#download" class="btn btn-primary" style="padding:8px 18px;font-size:0.8rem;">Скачать</a>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-badge">v<span id="hero-version">1.1.2</span> • Только что вышло</div>
+        <h1>AI-ассистент, который <span>понимает</span> вас</h1>
+        <p>Секретарь, репетитор и помощник программиста в одном приложении.</p>
+        <div class="hero-actions">
+            <a href="#download" class="btn btn-primary btn-large">
+                <span>⬇</span> Скачать для Windows
+            </a>
+            <a href="https://github.com/aitryhard/AIVEX" target="_blank" rel="noopener" class="btn btn-outline btn-large">
+                <span>⌨</span> Исходный код
+            </a>
+        </div>
+        <div class="version-info">
+            <span id="hero-release-info">Последняя версия: v<span id="hero-version-2">1.1.2</span></span>
+            &nbsp;•&nbsp;
+            <a href="https://github.com/aitryhard/AIVEX/releases" target="_blank" rel="noopener">Все релизы</a>
+        </div>
+    </div>
+</section>
+
+<section id="features" class="features">
+    <div class="container">
+        <h2>Возможности</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🔍</div>
+                <h3>ScreenPeek</h3>
+                <p>Наведите ассистента на ошибку в коде, сложный график или непонятный интерфейс — получите мгновенный ответ. ИИ сам видит то же, что и вы.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎤</div>
+                <h3>Запись аудио</h3>
+                <p>Любой звук с компьютера — в текст за секунды. Записывайте созвоны, лекции, видео и получайте готовые заметки без печатания.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3>Умные профили</h3>
+                <p>Quick, Detailed, Tutor, Code — переключайте под задачу. Или создайте свой профиль с уникальной манерой ответа и стилем.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Интерфейс</h3>
+                <p>Тёмная, светлая или динамическая тема. Свой цветовой профиль с уникальными акцентами. Всё главное — в один клик.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Полная конфиденциальность</h3>
+                <p>Расшифровка, анализ, ответы — ни одного байта не уходит в облако. Всё остаётся на вашем компьютере.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💬</div>
+                <h3>Развитие</h3>
+                <p>Обновления каждые 2–4 недели, публичный changelog и десятки внедрённых идей пользователей. Предложения учитываем.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="download" class="download-section">
+    <div class="container">
+        <div class="download-card">
+            <div class="download-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+            </div>
+            <h3>Скачать AIVEX</h3>
+            <p>Установщик для Windows 10/11. Просто скачайте и запустите.</p>
+            <a id="download-btn" href="#" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+                <span>📦</span> <span id="download-btn-text">Загрузка...</span>
+            </a>
+            <div class="download-details" id="download-details">
+                <span id="dl-version">v1.1.2</span>
+                <span class="dot">•</span>
+                <span id="dl-size">~399 MB</span>
+                <span class="dot">•</span>
+                <span id="dl-count">— загрузок</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>Сделано с ❤️ · <a href="https://github.com/aitryhard/AIVEX" target="_blank" rel="noopener">AIVEX на GitHub</a></p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
