@@ -9,7 +9,14 @@
         const exe = data.assets.find(a => a.name.endsWith('.exe'));
         const downloadUrl = exe ? exe.browser_download_url : data.html_url;
         const size = exe ? (exe.size / (1024 * 1024)).toFixed(0) + ' MB' : '—';
-        const downloads = exe ? exe.download_count : 0;
+        let downloads = exe ? exe.download_count : 0;
+        if (exe) {
+            const assetRes = await fetch(exe.url);
+            if (assetRes.ok) {
+                const assetData = await assetRes.json();
+                downloads = assetData.download_count;
+            }
+        }
 
         const versionTexts = document.querySelectorAll('#hero-version, #hero-version-2, #dl-version');
         versionTexts.forEach(el => { el.textContent = tag.replace(/^v/, ''); });
