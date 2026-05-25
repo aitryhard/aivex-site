@@ -12,8 +12,6 @@ aivex-site/
 ├── js/
 │   └── main.js         # Скрипты (загрузка данных с GitHub API)
 ├── images/             # Изображения и скриншоты
-├── build/
-│   └── installer.nsi   # NSIS-скрипт установщика
 └── README.md
 ```
 
