@@ -1,27 +1,43 @@
-# AIVEX Landing Page
+# aivex-site
 
-Сайт-визитка для скачивания AI-ассистента [AIVEX](https://github.com/aitryhard/AIVEX).
-
-## Структура
-
-```
-aivex-site/
-├── index.html          # Главная страница
-├── css/
-│   └── style.css       # Стили
-├── js/
-│   └── main.js         # Скрипты (загрузка данных с GitHub API)
-├── images/             # Изображения и скриншоты
-└── README.md
+```bash
+> landing page for AIVEX
+> frontend • github api • releases
 ```
 
-## Возможности
+Landing page for downloading the AIVEX AI desktop assistant.
 
-- Автоматически подтягивает последний релиз с GitHub API
-- Кнопка скачивания с актуальной версией и размером
-- Адаптивный дизайн
-- Тёмная тема
+## stack
 
-## Деплой
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript)
 
-Откройте `index.html` в браузере или задеплойте на GitHub Pages / Vercel.
+## features
+
+- GitHub API integration
+- automatic latest release fetching
+- dynamic download button
+- responsive layout
+- dark theme
+
+## structure
+
+```bash
+css/        # styles
+js/         # frontend logic
+index.html  # main page
+```
+
+## deployment
+
+```bash
+> github pages
+> vercel
+```
+
+## status
+
+```bash
+> active development
+```
