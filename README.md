@@ -1,7 +1,16 @@
 # aivex-site
 
-Landing page for AIVEX. Fetches latest release from GitHub API and provides a download button.
+```bash
+> landing page for aivex
+> fetches latest release via github api
+```
 
-**Stack:** HTML В· CSS В· JavaScript
+## stack
 
-**Deploy:** GitHub Pages / Vercel
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript)
+
+```bash
+> deploy: github pages / vercel
+```
